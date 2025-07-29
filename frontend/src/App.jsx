@@ -1,12 +1,10 @@
-import { useState } from 'react'
-import './App.css'
+import EcoHero from './components/EcoHero';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className='bg-red-500 text-amber-200 font-bold'>Hello</div>
-  )
+    <div>
+      <EcoHero />
+    </div>
+  );
 }
-
-export default App
+export default App;
